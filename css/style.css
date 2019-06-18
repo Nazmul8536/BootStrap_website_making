@@ -1,0 +1,135 @@
+/*
+ Tamplate Name: Demo template
+Aurthor Name: Nazmul Hasan
+Aurthor Email: ndr889571@gmail.com
+Website Link: nazmulhasan24.com
+Github Link: Github.com/Nazmul8536
+*/
+
+
+
+.slides-navigation .prev,
+.slides-navigation .next{
+    width:47px;
+    height:47px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.slides-navigation a.prev{
+    background-image:url(../images/icons/prev.png);
+    left:20px;
+}
+.slides-navigation a.next{
+    background-image:url(../images/icons/next.png);
+    right:20px;
+}
+.slides-navigation{
+    z-index: 5;
+}
+
+.overlay{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background: rgba(0, 0, 0, .3);
+}
+.textMassage{
+    width:100%;
+    height: 250px;
+    position: absolute;
+    top:40%;
+    text-align: center;
+    z-index: 5;
+}
+.textMassage .heading .mainHeading{
+    color:#fff;
+    font-size: 38px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textMassage .heading .subheading{
+    color:#fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* slideSection end here */
+/* about section begin here */
+.padding{
+    padding:100px 0;
+}
+.aboutSection img{
+    width: 100%;
+    height:100%;
+}
+/* about css end here */
+/* skill css start here */
+.skillSection{
+    background:#e74c3c;
+    color:#fff;
+}
+.skill{
+    text-align: center;
+    margin-left: 10px;
+}
+.chart{
+    position: relative;
+    height: 152px;
+    width: 152px;
+    display: inline-block;
+}
+canvas{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.percent{
+    font-size: 25px;
+    line-height: 152px;
+    color:#000;
+}
+.percent::after{
+    content:'%';
+}
+
+
+/* sqare section css start here */
+
+.squareItem{
+    margin-top:30px;
+    position: relative;
+}
+.squareInnerContainer{
+    position: relative;
+    text-align: center;
+    padding: 15px 10px;
+    border: 2px solid #ccc;
+    border-top: none;
+}
+.squareInnerContainer:before,
+.squareInnerContainer:after{
+    position: absolute;
+    top: 0;
+    border: 1px solid #ccc;
+    width:30%;
+    content:'';
+}
+.squareInnerContainer:before{
+    left: 0;
+}
+.squareInnerContainer:after{
+    right: 0;
+}
+.squarIcon{
+    position: absolute;
+    left:50%;
+    top:-30px;
+    width:40%;
+    margin-left: -20%;
+    height: 60px;
+    font-size: 35px
+
+}
